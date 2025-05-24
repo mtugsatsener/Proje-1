@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Split Screen with Header and Blog</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<header>
+  <div class="logo">
+    <img src="assets/images/logo.svg" alt="Logo">
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- Main Split Layout -->
+<div class="split-screen">
+  <!-- Left Side -->
+  <div class="left-side">
+    <div>
+      <h1>Why Choose Our Product?</h1>
+      <p>Compare features, see the benefits, and start your free trial today.</p>
+      <img src="assets/images/Screenshot49.png" alt="Full Width Image" style="max-width: 100%; height: auto;">
+
+    </div>
+  </div>
+
+  <!-- Right Side: Demo Form -->
+  <section class="right-side" aria-label="demo form">
+    <div class="container">
+      <h2 class="section-title" style="text-align: center;">
+        Request a <strong class="strong">Free Demo</strong>
+      </h2>
+
+      <form action="#" method="post" style="display: flex; flex-direction: column; gap: 20px;">
+        <input type="text" name="name" placeholder="Full Name" required class="input-field" />
+        <input type="email" name="email" placeholder="Work Email" required class="input-field" />
+        <input type="tel" name="phone" placeholder="Phone Number" required class="input-field" />
+        <input type="text" name="company" placeholder="Company Name" required class="input-field" />
+        <select name="company_size" required class="input-field">
+          <option value="">Company Size</option>
+          <option value="1-10">1-10</option>
+          <option value="11-50">11-50</option>
+          <option value="51-200">51-200</option>
+          <option value="201-500">201-500</option>
+          <option value="500+">500+</option>
+        </select>
+        <button type="submit" class="btn">Get Started</button>
+      </form>
+    </div>
+  </section>
+</div>
+
+<!-- Blog Section -->
+<section class="blog-section">
+  <h2>From Our <strong class="strong">Blog</strong></h2>
+  <div class="blog-posts">
+    <!-- Blog Post 1 -->
+    <article class="blog-post">
+      <img src="assets/images/featured-1.jpg" alt="How Our Product Can Help You Scale" />
+      <div class="content">
+        <h3>How Our Product Can Help You Scale</h3>
+        <p>Discover how businesses are using our tools to grow faster and smarter...</p>
+        <a href="#">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog Post 2 -->
+    <article class="blog-post">
+      <img src="assets/images/featured-2.jpg" alt="Top 5 Features You’re Not Using Yet" />
+      <div class="content">
+        <h3>Top 5 Features You’re Not Using Yet</h3>
+        <p>You might be missing out on powerful features that boost productivity...</p>
+        <a href="#">Read More →</a>
+      </div>
+    </article>
+
+    <!-- Blog Post 3 -->
+    <article class="blog-post">
+      <img src="assets/images/featured-3.jpg" alt="Customer Stories: Real Results" />
+      <div class="content">
+        <h3>Customer Stories: Real Results</h3>
+        <p>Hear from real customers about how they transformed their workflow...</p>
+        <a href="#">Read More →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+</body>
+</html>
